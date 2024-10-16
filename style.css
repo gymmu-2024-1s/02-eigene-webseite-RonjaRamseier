@@ -18,7 +18,7 @@ body {
 */
 .text-and-img {
     display: flex; /* Richtet die Elemnte in einer Zeile oder Reihe aus. */
-    flex-direction: row; /* In einer Reihe ausgerichtet. */
+    grid-template-columns: 80% auto; /* In einer Reihe ausgerichtet. */
     gap: 1rem; /* Abstand zwischen den Elementen.*/
     align-items: center; /* Ausrichtung in der Mitte entlang der anderen Achse. */
     justify-content: center; /* Ausrichtung in der Mitte entlang der Hauptachse */
@@ -29,4 +29,15 @@ body {
 .text-and-img img {
     border-radius: 2rem; /* Damit können die Ecken abgerundet werden. */
     width: 100%; /* Braucht es damit das Bild im Container bleibt und nicht viel zu gross ist. */
+}
+h1 {
+    background-color: royalblue;
+    color: midnightblue;
+}
+h2 {
+    color: blueviolet;
+    background-color: skyblue;
+}
+body {
+    background-color: powderblue;
 }

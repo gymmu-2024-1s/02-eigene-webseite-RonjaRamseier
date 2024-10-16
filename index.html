@@ -16,18 +16,21 @@
             <!-- Im header wird der Kopf der Webseite angegeben.
             Dies ist aber nur ein Struktur-Element. Damit der Header auch immer
             ganz oben angezeigt wird, braucht es noch das richtige CSS dafür. -->
-            <h1>Webseite von ...</h1>
+            <h1>Webseite von Ronja</h1>
         </header>
-
+        </svg>
         <nav>
             <!-- Das Navigations-Element beinhaltet eine Liste von Links, mit
             denen man auf Unterwebseiten kommt. 
             Dieses Element wird oft in den Header gesetzt, kann aber auch auf
             der linken oder rechten Seite verwendet werden. -->
-
+            <h2>My hobbies</h2>
             <ul>
                 <li>
                     <a href="./pages/hobbies.html">Hobbies</a>
+                </li>
+                <li>
+                    <a href="./pages/hobbies.html">Other stuff I do in my free time</a>
                 </li>
             </ul>
         </nav>
@@ -41,40 +44,55 @@
                 <!-- Dieses Element wird verwendet um einen Abschnitt auf der
                 Webseite vom Rest abzutrennen. Für Abschnitte in einem Text
                 verwendet man das p-Element. -->
-                <h2>Erster Abschnitt</h2>
+                <h2>Basic Infos about me</h2>
                 <p>
                     <!-- Mit dem p-Element Teilt man einen Text in Paragraphen
                     ein. Das p-Element hat meistens nur noch Text, Links oder
                     Bilder drin, sonst keine weiteren Elemente. -->
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea
-                    itaque eaque vel necessitatibus amet consectetur corrupti
-                    repudiandae ipsam aliquam sint.
+                    My name is Ronja Ramseier. I'm currently fifteen years old,
+                    I'll be sixteen soon, though. I currently live in Birsfelden
+                    My family consists of my parents, my younger sister and our
+                    cats Katana (mine), and Fluffy (my sisters cat).
                 </p>
+
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                    natus magni non cumque voluptatum similique ullam
-                    temporibus. Magni sequi sunt temporibus ab a nobis quo non,
-                    molestias sapiente dolorum repellendus obcaecati odit, dolor
-                    quae illo ratione, veniam autem id praesentium. Consectetur,
-                    totam asperiores expedita culpa doloribus nesciunt error
-                    architecto dolorum!
+                    When I'm not practicing my hobbies, I like to listen to
+                    music, read/write books or watch movies. The music genres I
+                    like best are Rock, Metal, Emo and K-Pop. For books and
+                    movies, I like Fantasy, Science-Fiction and Mystery. Though
+                    I will read most books I can get. My favourite movies are
+                    'Star Wars' and 'Howl's moving castle', whilst my favourite
+                    books are 'Carry On: The Rise and Fall of Simon Snow', 'A
+                    Good Girl's Guide to Murder' and 'They hate each other'. I'm
+                    only going to mention a few of my favourite musicians,
+                    because I simply have too many. For Rock etc, it's BMTH,
+                    MCR, FOB, Green Day, TX2 and BVB. The best K-Pop groups (in
+                    my opinion) are Ateez, Shinee, BTS, SKZ, TXT, Enhypen and
+                    Xdinary Heroes (Yes, I know I'm bad at choosing), whilst the
+                    best soloists are Taemin, Jimin, GDragon, Jonghyun and Agust
+                    D.
                 </p>
             </section>
 
             <section>
-                <h2>Abschnitt mit Text und Bild</h2>
+                <h2>A picture (I'm aware, very creative)</h2>
                 <div class="text-and-img">
                     <!-- Hier wird eine Klasse verwendet, die in CSS angibt wie das
                     Element gestaltet werden soll. Es werden hier 2 Kinder-Elemente
                     verwendet, damit wir den Effekt von einem Text neben einem Bild
                     einfach hinbekommen können. -->
                     <div class="text">
-                        Hier ist eine Beschreibung von dem Bild, oder einfach
-                        Text der dazu passen könnte.
+                        The picture shows me fighting in a Kendo tournament.
                     </div>
                     <div class="image">
-                        <img src="/img/mountains.png" alt="" />
+                        <img src="/img/kendo.png" alt="" />
                     </div>
+                    </svg>
+                    <svg height="300" width="300">
+                        <ellipse cx="150" cy="150" rx="50" ry="50" fill="midnightblue">
+                          <animate attributeName="ry" values="50;25;50" dur="1s" repeatCount="indefinite"/>
+                        </ellipse>
+                    </svg>
                 </div>
             </section>
         </main>
